@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Min Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f3f3;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      margin-top: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .project {
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
+    }
+    .project:last-child {
+      border-bottom: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mitt Namn</h1>
+    <p>Nätverkstekniker • IT • Hemmalabb</p>
+  </header>
+
+  <nav>
+    <a href="#cv">CV</a>
+    <a href="#projekt">Projekt</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section class="section" id="cv">
+    <h2>CV</h2>
+    <p>Här kan du lägga in din erfarenhet, utbildning och certifieringar.</p>
+  </section>
+
+  <section class="section" id="projekt">
+    <h2>Projekt</h2>
+
+    <div class="project">
+      <h3>VLAN & Nätverkssegmentering</h3>
+      <p>Designade ett hemmalabb med flera VLAN, brandväggsregler och dokumentation.</p>
+      <a href="#">Länk till GitHub / dokumentation</a>
+    </div>
+
+    <div class="project">
+      <h3>Nätverksövervakning (Zabbix / Grafana)</h3>
+      <p>Implementerade ett övervakningssystem med dashboards, larm och logghantering.</p>
+      <a href="#">Länk till GitHub / screenshots</a>
+    </div>
+
+    <div class="project">
+      <h3>VPN-infrastruktur (WireGuard)</h3>
+      <p>Satte upp säker fjärråtkomst med WireGuard och dokumenterade allt.</p>
+      <a href="#">Länk till repo</a>
+    </div>
+
+  </section>
+
+  <section class="section" id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Email: din@email.se</p>
+    <p>LinkedIn: länk</p>
+    <p>GitHub: länk</p>
+  </section>
+
+  <footer>
+    © 2025 Mitt Namn
+  </footer>
+
+</body>
+</html>
